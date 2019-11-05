@@ -1,0 +1,3 @@
+# index
+
+permalink: /index.html
