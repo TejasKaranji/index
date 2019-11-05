@@ -1,0 +1,88 @@
+.vote-counter-validation{
+    display: none;
+}
+
+.vote-counter-validation.show{
+    display: block;
+}
+
+.vote-counter-voting .field-container,
+.vote-counter-validation .field-container,
+.otp-resend .field-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  margin: 0 !important; 
+}
+
+.vote-counter-voting input[type=text],
+.vote-counter-voting input[type=number],
+.vote-counter-voting input[type=email],
+.vote-counter-validation input[type=number]{
+    width:100%;
+}
+
+
+.vote-counter-voting .field-msg,
+.vote-counter-validation .field-msg,
+.otp-resend .field-msg {
+    display: none;
+    position: absolute;    
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+.vote-counter-voting .field-msg{
+    bottom: -18px;
+}
+
+.vote-counter-voting .field-msg.show,
+.vote-counter-validation .field-msg.show,
+.otp-resend .field-msg.show{
+    display: block;
+}
+
+.vote-counter-voting .error {
+    color: rgb(144, 19, 19);
+}
+
+.vote-counter-voting .success {
+    color: rgb(47, 129, 47);
+}
+
+.vote-counter-voting .btn,
+.vote-counter-validation .btn,
+.otp-resend .btn{
+    margin-bottom: 12px;
+}
+
+.resend-otp{
+    display: none;
+    margin-top: 12px;
+}
+
+.resend-otp.show{
+    display: inline-block;
+    background: transparent;
+    color: #0274be;
+}
+
+.thank-you-note{
+    display: none;
+    text-align: center;
+}
+
+.thank-you-note.show{
+    display: block;
+}
+
+.check-img{
+    margin: 0 auto;
+    width: 128px; 
+}
